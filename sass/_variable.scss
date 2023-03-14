@@ -1,0 +1,20 @@
+$bg_franja:#181934;
+$bg_container:#ffecff;
+$bg_cards: #c3ccff;
+$bg_footer: #77767c;
+$optional: #3f5f99;
+
+@mixin boton(){
+
+    
+    button{
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+    }
+      
+    button:hover {
+        background-color: #008CBA;
+        color: white;
+    }
+}
