@@ -6,6 +6,7 @@ header {
 }
 header img {
   width: 10%;
+  height: 80px;
 }
 header input {
   width: 70%;
@@ -19,6 +20,27 @@ header button {
   cursor: pointer;
 }
 
+@media screen and (max-width: 375px) {
+  header {
+    height: auto;
+    text-align: center;
+    display: block;
+  }
+  header img {
+    width: 50%;
+  }
+  header input {
+    width: 50%;
+    height: 20px;
+    margin-top: 25px;
+  }
+  header button {
+    width: 50%;
+    height: 25px;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+}
 #navegacion {
   display: flex;
   width: 100%;
@@ -47,6 +69,28 @@ banner img {
   margin: 25px;
 }
 
+@media screen and (max-width: 375px) {
+  #navegacion {
+    height: auto;
+    text-align: center;
+    display: block;
+  }
+  #navegacion button {
+    width: 25%;
+    height: 45px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+  banner {
+    height: auto;
+    text-align: center;
+    display: block;
+  }
+  banner img {
+    width: 60%;
+    margin: 5px;
+  }
+}
 #content {
   background-color: #c3ccff;
   display: flex;
@@ -77,6 +121,25 @@ banner img {
   height: 30px;
 }
 
+@media screen and (max-width: 375px) {
+  #content {
+    height: auto;
+    display: block;
+  }
+  #content aside {
+    width: 100%;
+    height: auto;
+    background-color: #3f5f99;
+    text-align: center;
+  }
+  #content #cards {
+    display: block;
+    text-align: center;
+  }
+  #content #cards .card {
+    width: 95%;
+  }
+}
 * {
   margin: 0 auto;
   padding: 0;

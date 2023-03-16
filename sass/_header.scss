@@ -5,7 +5,8 @@ header{
     background-color: $bg_franja;
     
     img{        
-        width: 10%;        
+        width: 10%;  
+        height: 80px;      
     }
 
     input{
@@ -19,5 +20,31 @@ header{
         height: 25px;
         margin-top: 25px;
         cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        height: auto;
+        text-align: center;
+        display: block;
+
+        img{        
+            width: 50%; 
+        }
+    
+        input{
+            width: 50%;
+            height: 20px;
+            margin-top: 25px;
+        }
+        
+        button{
+            width: 50%;
+            height: 25px;
+            margin: 20px 0px;
+            cursor: pointer;
+        }
+
     }
 }

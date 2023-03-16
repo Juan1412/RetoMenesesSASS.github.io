@@ -28,5 +28,32 @@
                 height: 30px;
             }
         }
+    }   
+}
+
+@media screen and (max-width: 375px) {
+    #content{
+        height: auto;
+        display: block;
+
+        aside{
+            width: 100%;
+            height: auto;
+            background-color: $optional;
+            text-align: center;        
+        }
+        #cards{
+            display: block; 
+            text-align: center;
+            .card{
+                width: 95%;
+            }
+        }
     }
+
+    
+    
+    
+        
+
 }

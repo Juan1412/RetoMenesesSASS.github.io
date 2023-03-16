@@ -28,3 +28,29 @@ banner{
         margin: 25px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    #navegacion {
+        height: auto;
+        text-align: center;
+        display: block;
+        
+        button{
+            width: 25%;
+            height: 45px;
+            margin: 10px 0px;
+            cursor: pointer;
+        }
+    }
+
+    banner{
+        height: auto;
+        text-align: center;
+        display: block;
+
+        img{
+            width: 60%;
+            margin: 5px;
+        }
+    }
+}
