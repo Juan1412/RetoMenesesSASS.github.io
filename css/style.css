@@ -20,7 +20,7 @@ header button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   header {
     height: auto;
     text-align: center;
@@ -69,7 +69,7 @@ banner img {
   margin: 25px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   #navegacion {
     height: auto;
     text-align: center;
@@ -121,7 +121,7 @@ banner img {
   height: 30px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   #content {
     height: auto;
     display: block;
